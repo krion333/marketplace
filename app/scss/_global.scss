@@ -7,6 +7,11 @@ html{
     box-sizing: inherit;
 }
 
+html,
+body {
+	 height: 100%;  //для прибития футера
+}
+
 a{
     display: inline-block;
     text-decoration: none;
@@ -26,6 +31,20 @@ body{
     font-size: 16px;
   
 }
+
+//для прибития футера - начало
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}  //для прибития футера - конец
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
