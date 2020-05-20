@@ -53,6 +53,22 @@ $('.pric').on('click', function () {
     
  });
 
+ $('.product-one__aside-license label').on('click', function () {
+     var $this = $(this);
+     $('.product-one__aside-license .text').slideUp(600);
+     $this.parent('div').find('p').slideDown(600);
+     $('.product-one__aside-title span').text($this.data('price') + '.00');
+ });
+
+ $('.product-one__content-tabs .tab').on('click', function(event) {
+     var id = $(this).attr('data-id');
+          $('.product-one__content-tabs').find('.tab-item').removeClass('active-tab').hide();
+          $('.product-one__content-tabs .tabs').find('.tab').removeClass('active');
+          $(this).addClass('active');
+          $('#'+id).addClass('active-tab').fadeIn();
+          return false;
+     });
+
    var mixer = mixitup('.release__inner-box');
    
 });
