@@ -43,7 +43,7 @@
 .lnr-flag:before {
 	content: "\e817";
 }
-.lnr-envelope:before {
+.lnr-envelope:after {
 	content: "\e818";
 }
 
@@ -405,6 +405,28 @@
 .lnr-eye:before {
 	content: "\e81b";
 }
+.lnr-eye:before {
+	content: "\e81a";
+}
+.lnr-exit:before {
+	content: "\e820";
+}
+.lnr-book:before {
+	content: "\e828";
+}
+.lnr-dice:before {
+	content: "\e812";
+}
+.lnr-home:before {
+	content: "\e800";
+}
+.lnr-cog:before {
+	content: "\e810";
+}
+.lnr-trash:before {
+	content: "\e811";
+}
+
 
 @font-face {
 	font-family: 'icomoon';

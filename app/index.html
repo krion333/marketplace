@@ -37,19 +37,22 @@
                             </a>
 
                             <div class="notification-box">
-                                <a class="notification header__sign alarm header__btn-login--off" href="#"> <span>25</span></a>
-                               
+                                <a class="notification header__sign alarm header__btn-login--off" href="#">
+                                    <span>25</span></a>
+
                             </div>
                             <div class="message-box">
-                                <a class="message header__sign envelope header__btn-login--off" href="#"><span>5</span></a>  
-                                                         
+                                <a class="message header__sign envelope header__btn-login--off"
+                                    href="#"><span>5</span></a>
+
                             </div>
                             <div class="busket-box">
                                 <a class="busket header__sign cart" href="#"><span>8</span></a>
                             </div>
-                            
+
                             <div class="header__profile">
-                                <a class="avatar header__btn-login--off" href="#" style="background-image: url(images/profile-photo.jpg);"></a>
+                                <a class="avatar header__btn-login--off" href="#"
+                                    style="background-image: url(images/profile-photo.jpg);"></a>
                                 <div class="header__profile-inner  header__btn-login--off">
                                     <a class="name" href="#">Taofiq Hakim</a>
                                     <a class="price" href="#">$20.45</a>
@@ -62,13 +65,89 @@
                 <div class="header__menu">
                     <div class="container">
                         <div class="header__menu-list">
-                            <ul>
-                                <li> <a href="#">Home</a></li>
-                                <li> <a href="#">All Products</a></li>
-                                <li> <a href="#">Wordpress</a></li>
-                                <li> <a href="#">Festures</a></li>
-                                <li> <a href="#">Pages</a></li>
-                            </ul>
+                            <nav class="header__menu-main">
+                                <ul class="topmenu">
+                                    <li>
+                                        <a href="#">Home</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Home One Multi User</a></li>
+                                            <li><a href="#">Home Two Single User</a></li>
+                                            <li><a href="#">Home Three Products</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a href="#">All Products</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Recent Items</a></li>
+                                            <li><a href="#">Popular Items</a></li>
+                                            <li><a href="#">Featured Items</a></li>
+                                            <li><a href="#">Free Templates</a></li>
+                                            <li><a href="#">Follow Feed</a></li>
+                                            <li><a href="#">Top Authors</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a href="#">Wordpress</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Popular Items</a></li>
+                                            <li><a href="#">Admin Templates</a></li>
+                                            <li><a href="#">Blog / Magazine / News</a></li>
+                                            <li><a href="#">Creative</a></li>
+                                            <li><a href="#">Corporate Business</a></li>
+                                            <li><a href="#">Resume Portfolio</a></li>
+                                            <li><a href="#">eCommerce</a></li>
+                                            <li><a href="#">Entertainment</a></li>
+                                            <li><a href="#">Landing Pagest</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a href="#">Features</a>
+                                    </li>
+
+                                    <li> <a href="#">Pages</a>
+                                        <ul class="submenu pages">
+                                            <li class="pages-item">
+                                                <div class="links">
+                                                    Pages Martplace
+                                                </div>
+                                                <ul class="column">
+                                                    <li><a href="#">Home page one</a></li>
+                                                    <li><a href="#">Home page two</a></li>
+                                                    <li><a href="#">Home page three</a></li>
+                                                    <li><a href="#">Single Items Comments</a></li>
+                                                    <li><a href="#">Single Items Review</a></li>
+                                                    <li><a href="#">Single Items Support</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="pages-item two">
+                                                <div class="links">
+                                                    Dashboards
+                                                </div>
+                                             <ul>
+                                                <li><a href="#">Dashboards</a></li>
+                                                <li><a href="#">Account Settings</a></li>
+                                                <li><a href="#">Author Purchase</a></li>
+                                               </ul> 
+                                            </li>
+
+                                            <li class="pages-item three">
+                                                <div class="links">
+                                                    Others Pages
+                                                </div>
+                                                <ul class="column">
+                                                    <li><a href="#">Home page one</a></li>
+                                                    <li><a href="#">Home page two</a></li>
+                                                    <li><a href="#">Home page three</a></li>
+                                                    <li><a href="#">Single Items Comments</a></li>
+                                                    <li><a href="#">Single Items Review</a></li>
+                                                    <li><a href="#">Single Items Support</a></li>
+                                                    <li><a href="#">Menu & Footer Variation</a></li>
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </nav>
 
                             <div class="header__search">
                                 <form action="">
@@ -83,29 +162,33 @@
                 </div>
             </header>
 
-            <section class="products" style="background-image: url(images/products_bg.jpg);">
+
+            <section class="productsbar" style="background-image: url(images/products_bg.jpg);">
                 <div class="container">
 
 
-                    <div class="products__items">
-                        <p class="products__items-title">Create Your Own</p>
-                        <p class="products__items-text">Digital Product Marketplace</p>
-                        <p class="products__items-bottom">MartPlace is the most powerful, & customizable template for
+                    <div class="productsbar__items">
+                        <p class="productsbar__items-title">Create Your Own</p>
+                        <p class="productsbar__items-text">Digital Product Marketplace</p>
+                        <p class="productsbar__items-bottom">MartPlace is the most powerful, & customizable template for
                             Easy
                             Digital Downloads Products</p>
                     </div>
-                    <div class="products__box">
-                        <a class="products__btn" href="#">View All Products</a>
-                        <a class="products__btn" href="#">Popular Products</a>
+                    <div class="productsbar__box">
+                        <a class="productsbar__btn" href="#">View All Products</a>
+                        <a class="productsbar__btn" href="#">Popular Products</a>
                     </div>
 
                     <div class="search-box">
-                        <form action="">
+                        <form>
                             <input type="text" placeholder="Search your products..." required>
-                            <select class="select" name="Categories" id="">
-                                <option>All Categories</option>
-                                <option>New Products</option>
-                            </select>
+
+                            <div class="search-box__select">
+                                <select>
+                                    <option>All Categories</option>
+                                    <option>New Products</option>
+                                </select>
+                            </div>
 
                             <button type="submit">
                                 Search now
@@ -308,13 +391,16 @@
                                 <div class="release__filter-row"></div>
                                 <div class="release__filter-row"></div>
                                 <div class="release__filter-row"></div>
-                                <select class="release__filter-category" style="display: none;">
+                            </div>
+                            <div class="release__filter-category" style="display: none;">
+                                <select>
                                     <option>Choose category</option>
                                     <option>All</option>
                                     <option>All New Products</option>
                                     <option>WordPress</option>
                                 </select>
                             </div>
+
                         </div>
                     </div>
 

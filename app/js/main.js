@@ -69,6 +69,9 @@ $('.pric').on('click', function () {
           return false;
      });
 
+ $('select').styler();
+ 
+
    var mixer = mixitup('.release__inner-box');
    
 });
