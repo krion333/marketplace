@@ -8,7 +8,7 @@ $(function(){
 
 
    $('.featured__slider-items').slick({
-       
+    //    dots: true,
         nextArrow: '<button class="slick-arrow slick-next"></button>',
         prevArrow: '<button class="slick-arrow slick-prev"></button>',
       
@@ -18,9 +18,28 @@ $(function(){
      slidesToShow: 3,
      slidesToScroll: 1,
      infinite: false,
+    //  infinite: true,
         nextArrow: '<button class="slick-arrow slick-next"></button>',
         prevArrow: '<button class="slick-arrow slick-prev"></button>',
-      
+        responsive: [
+            {
+               breakpoint: 1200,
+               settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                                    
+               }
+            },
+
+            {
+               breakpoint: 800,
+               settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                                   
+               }
+            },
+        ]      
    });
 
    $('.release__filter').on('click', function () {
@@ -37,11 +56,11 @@ $(function(){
  $('.filt').on('click', function () {
      $('.product').slideToggle();
 
-}); 
-$('.pric').on('click', function () {
+  }); 
+  $('.pric').on('click', function () {
      $('.form').slideToggle();
 
-}); 
+   }); 
 
  $(".js-range-slider").ionRangeSlider({
      type: "double",
@@ -70,7 +89,16 @@ $('.pric').on('click', function () {
      });
 
  $('select').styler();
- 
+
+ $('.header__menu-btn').on('click', function () {
+     $('.topmenu').slideToggle('slow');
+ });
+
+ $('.header__account').on('click', function () {
+    $('.header__box').toggleClass('active');
+});
+
+  
 
    var mixer = mixitup('.release__inner-box');
    
