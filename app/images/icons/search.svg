@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<defs>
+		<image width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAAXNSR0IB2cksfwAAAOFQTFRFeJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCceJCcwtrLdQAAAEt0Uk5TAA9dlaqWXhJ6/3wExtthKhopX9bMBct5ds93cYIL395gV1SeHxaUsxEGnx4VUQ3Z2Ad7bYFwbu/N2iIQIdT4l4OEDJqcU4ugCo1ma5QK7wAAALRJREFUeJxtkOcSgjAQhCNiWXtX7GLH3nsXLO//QA4h4M3o/tnNl7udSRgz5ZLcssfrY1R+WAp8UTCEcCQaiyeSSKVtmEFWpBwUkfLwO0sFFLmXUCbtFfCCKmoEqlBNq6NBYBMt09roENiFbJqGHoF9azJitQgNrNMQIwLHmHCfIuewGeYiKViItMTKvk6vsfFud3vpgCNOztZZ/NLlesPdoRPdeBj6k79FY7/SyCyl/2Zf7w8gPg84CeuWMAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="header_section">
+		<g id="banner">
+			<g id="search box">
+				<use id="Layer 186" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
